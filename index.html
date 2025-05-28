@@ -185,13 +185,16 @@
 	  <span class>
 
       <br />
-      <a href="https://doi.org/10.1145/3698205.3733942"
+      <a href="https://learningatscale.acm.org/las2025/"
       target="_blank">Decomposing the Student Journey: A Tensor-Based Approach to Identifying Gateway Courses</a>
       <br />
       Amssatou Diagne, Prateek Gupta, Aamir Ibrahim, Chris Wirgler, Wenying Wu, Maria Konte and David Joyner<br /> In
       Proceedings of Learning @ Scale 2025
       <details>
-        <summary>abstract</summary><p>Research opportunities offer students at the master's level a chance to apply their knowledge, create projects for their portfolio, and to gain an understanding of the research process in preparation for potential doctoral studies. The traditional structure of these opportunities, however, is not trivial to translate to online programs with asynchronous delivery. As online programs grow, it is important to examine ways that the traditional benefits of these opportunities can be extended to a broader range of students. In this poster, we discuss our experience building the infrastructure and running early efforts at reaching this goal. We discuss several dedicated courses and seminars developed to offer larger scale opportunities for students to pursue research. We also discuss efforts in active development to provide better infrastructure support to reduce the friction and complexity of pursuing research at scale.
+        <summary>abstract</summary><p>Gateway courses play a key role in student success. These courses often control access to advanced coursework and can delay gradua- tion if students struggle to pass them. Identifying such courses is important for curriculum design and student support. However, ex- isting methods rely on heuristics or past grades and often overlook complex patterns in student enrollment data.
+In this paper, we propose a tensor decomposition-based method to identify gateway courses in a systematic way. We model student- course-semester interactions as a three-dimensional tensor. This captures relationships between students, courses, and time. Using PARAFAC tensor decomposition, we extract latent factors that represent course importance based on their structure in the data.
+Our analysis shows that this method highlights courses that are central, or distinctive in the curriculum. Courses with high latent factor magnitudes are likely to represent gateway courses or critical prerequisites.
+As future work, we plan to combine tensor decomposition with learning techniques. This could enable predictive models and pro- vide insights for curriculum design. Our goal is to develop a com- plete framework to analyze educational data, and support institu- tions in improving student outcomes.
   </details>
   <details> <summary>bibtex</summary><pre><code>
     @inproceedings{diagne2025decomposing,
